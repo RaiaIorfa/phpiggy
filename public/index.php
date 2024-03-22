@@ -1,11 +1,7 @@
 <?php
 
-$app = include __DIR__ . "/../src/App/bootstrap.php"; 
+include __DIR__ . "/../src/App/functions.php";
 
-echo __DIR__;
-echo '<br>';
-echo '<br>';
-echo dirname(__DIR__);
-echo '<br>';
+$app = include __DIR__ . "/../src/App/bootstrap.php";
 
 $app->run();
